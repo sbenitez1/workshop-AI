@@ -140,6 +140,34 @@
       object-fit: contain;
       filter: brightness(0) invert(1);
     }
+
+    .register-box {
+      text-align: center;
+      margin: 2.5rem 0;
+    }
+
+    .register-btn {
+      display: inline-block;
+      background-color: #0f2a44;
+      color: white;
+      padding: 0.9rem 1.8rem;
+      font-size: 1.05rem;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+
+    .register-btn:hover {
+      background-color: #143a5e;
+      transform: translateY(-1px);
+    }
+  
+    .register-note {
+      margin-top: 0.6rem;
+      font-size: 0.9rem;
+      color: #444;
+    }
   </style>
 </head>
 
@@ -167,6 +195,17 @@
       </a>
     </p>
   </div>
+
+  <div class="register-box">
+  <a href="https://shorturl.at/2UiVx"
+     target="_blank" rel="noopener noreferrer"
+     class="register-btn">
+    Register here!
+  </a>
+  <div class="register-note">
+    Registration is <strong>free of charge</strong>.
+  </div>
+</div>
 
   <h2>About the Workshop</h2> <p> This workshop focuses on methodological and applied aspects of interpretability and fairness in machine learning models. It aims to foster academic discussion and knowledge exchange among researchers at different career stages, with a particular emphasis on responsible data-driven decision-making. </p>
 
