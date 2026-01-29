@@ -18,8 +18,24 @@
     header {
       background-color: #0f2a44;
       color: white;
-      padding: 3rem 1.5rem;
+      padding: 2.5rem 1.5rem 3rem;
       text-align: center;
+    }
+
+    /* --- LOGOS TOP --- */
+    .logo-top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .logo-top img {
+      max-height: 60px;
+      max-width: 180px;
+      object-fit: contain;
     }
 
     header h1 {
@@ -82,9 +98,26 @@
       background-color: #0f2a44;
       color: white;
       text-align: center;
-      padding: 1.5rem;
+      padding: 2rem 1.5rem;
       margin-top: 4rem;
       font-size: 0.9rem;
+    }
+
+    /* --- LOGOS BOTTOM --- */
+    .logo-bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .logo-bottom img {
+      max-height: 50px;
+      max-width: 160px;
+      object-fit: contain;
+      filter: brightness(0) invert(1); /* blanco sobre fondo oscuro */
     }
   </style>
 </head>
@@ -92,6 +125,12 @@
 <body>
 
 <header>
+  <!-- LOGOS SUPERIORES -->
+  <div class="logo-top">
+    <!-- <img src="logo_uc3m.png" alt="UC3M Logo"> -->
+    <!-- <img src="logo_project.png" alt="Project Logo"> -->
+  </div>
+
   <h1>Towards Equitable and Explainable AI for Responsible Decision-Making</h1>
   <p>Academic Workshop · Universidad Carlos III de Madrid</p>
 </header>
@@ -118,9 +157,7 @@
   <table class="program">
     <tr>
       <th class="time">16:00</th>
-      <td>
-        <strong>Opening</strong><br/>
-      </td>
+      <td><strong>Opening</strong></td>
     </tr>
 
     <tr>
@@ -135,7 +172,7 @@
       <th class="time">16:45 – 17:10</th>
       <td>
         <strong>Research Presentation</strong><br/>
-        Elisa Cabana Garcerán del Vall  (CUNEF Universidad)
+        Elisa Cabana Garcerán del Vall (CUNEF Universidad)
       </td>
     </tr>
 
@@ -157,9 +194,7 @@
 
     <tr>
       <th class="time">18:00 – 18:30</th>
-      <td>
-        <strong>Coffee Break</strong>
-      </td>
+      <td><strong>Coffee Break</strong></td>
     </tr>
 
     <tr>
@@ -171,41 +206,24 @@
     </tr>
 
     <tr>
-      <th class="time">19:10 – 19:35</th>
-      <td>
-        <strong>Applied Perspective</strong><br/>
-        Industry Professional (Affiliation)
-      </td>
-    </tr>
-
-
-    <tr>
-      <th class="time">19:35 – 20:00</th>
-      <td>
-        <strong>Applied Perspective</strong><br/>
-        Industry Professional (Affiliation)
-      </td>
-    </tr>
-
-
-    <tr>
-      <th class="time">20:00 – 20:25</th>
-      <td>
-        <strong>Applied Perspective</strong><br/>
-        Industry Professional (Affiliation)
-      </td>
+      <th class="time">19:10 – 20:25</th>
+      <td><strong>Applied Perspectives</strong></td>
     </tr>
 
     <tr>
       <th class="time">20:25 – 20:30</th>
-      <td>
-        <strong>Discussion and Closing Remarks</strong>
-      </td>
+      <td><strong>Discussion and Closing Remarks</strong></td>
     </tr>
   </table>
 </section>
 
 <footer>
+  <!-- LOGOS INFERIORES -->
+  <div class="logo-bottom">
+    <<img src="logo1.png" alt="IBiDat Logo"> 
+    <!-- <img src="logo_department.png" alt="Department Logo"> -->
+  </div>
+
   Universidad Carlos III de Madrid · Department of Statistics · IBiDat
 </footer>
 
