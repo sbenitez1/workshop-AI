@@ -1,1 +1,1 @@
-# ayuda-cis
+# Workshop on equitable and interpretable AI
